@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.CSS">
+    <title>Calculadora de Empréstimos</title>
+</head>
+<body>
+
+    <h3>Calculadora de Empréstimo</h3> 
+    <label>Valor do Empréstimo: <input type="number" id="principal" placeholder="10000"></label><br> 
+    <label>Taxa de Juros (% ao ano): <input type="number" id="taxa" placeholder="5"></label><br> 
+    <label>Tempo (anos): <input type="number" id="tempo" placeholder="2"></label><br> 
+    <button onclick="calcularEmprestimo()">Calcular</button> 
+
+     
+    <h4>Pagamento Mensal: R$ <span id="pagamentoMensal">0,00</span></h4> 
+  
+    <div id="tabelaAmortizacao"></div>
+
+<script src="./script.JS"></script>
+</body>
+</html>

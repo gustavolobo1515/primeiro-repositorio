@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.CSS">
+    <title>Calculadora de Despesas Mensais</title>
+</head>
+<body>
+    <div class="quadrado"></div>
+
+    <div class="formulario-despesas"> 
+        <h3>Despesas Mensais</h3> 
+        <div id="despesas"></div> 
+        <div class="item-despesa"> 
+            <input type="text" id="nomeDespesa" placeholder="Nome da despesa"> 
+            <input type="number" id="valorDespesa" placeholder="Valor"> 
+            <button onclick="adicionarDespesa()">Adicionar Despesa</button> 
+        </div> 
+        <div class="total-despesas"> 
+            <h4>Total: R$ <span id="total">0,00</span></h4> 
+        </div> 
+    </div>
+
+<script src="script.JS"></script>
+</body>
+</html>

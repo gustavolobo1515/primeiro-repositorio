@@ -1,0 +1,30 @@
+body {
+    background-color: #c3f783;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+h3 {
+    color: #000000;
+}
+.item-tarefa {
+    padding: 10px;
+    margin: 5px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: grab;
+}
+.item-tarefa:active {
+    cursor: grabbing;
+}
+#listaTarefas {
+    width: 300px;
+    min-height: 100px;
+    background-color: #58df3a;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px dashed #FFB033;
+}

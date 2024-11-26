@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(255, 137, 41);
+
+}
+
+.base{
+    position: absolute;
+    justify-content: center;
+    top: 100px;
+    left: 550px;
+
+}
+
+.quadrado{
+    background-color: rgb(230, 183, 42);
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    left: 500px;
+    top: 80px;
+    border-radius: 20px;
+    
+}
